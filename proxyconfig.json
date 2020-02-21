@@ -1,0 +1,12 @@
+{
+  "/apidata":{
+    "target":"http://xdfznh.club:7078/",
+    "secure":false,
+    "logLevel":"debug",
+    "changeOrigin":true,
+    "pathRewrite":{
+      "^/apidata":""
+    }
+
+  }
+}

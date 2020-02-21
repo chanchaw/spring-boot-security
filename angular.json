@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -63,7 +64,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "spring-boot-security:build"
+            "browserTarget": "spring-boot-security:build",
+            "proxyConfig":"proxyconfig.json"
           },
           "configurations": {
             "production": {
@@ -89,6 +91,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,6 +123,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "spring-boot-security"
 }
